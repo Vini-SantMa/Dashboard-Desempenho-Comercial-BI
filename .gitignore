@@ -1,0 +1,13 @@
+
+
+venv/
+.env
+
+
+
+pycache/
+*.py[cod]
+
+
+
+.DS_Store
