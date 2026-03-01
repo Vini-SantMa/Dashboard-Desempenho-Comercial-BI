@@ -17,7 +17,6 @@ A princípio, elaborei um modelo de planilha no google sheets com um simples qua
 <img width="1114" height="556" alt="image" src="https://github.com/user-attachments/assets/982c8ba5-9913-47a2-a6e7-2770700ef520" />
 
 
-
 Entretanto, ainda não era a solução ideal, pois o acompanhamento dos registros e do desempenho da equipe ainda era descentralizado e exigia uma união e organização das planilhas de cada vendedor.
 Com isso em mente, e com os novos conhecimentos que venho desenvolvendo durante a graduação, pensei em criar algo simples para otimizar esse processo:
 Desenvolvi um script em Python que automatiza o processo, com a leitura da planilha pura, a limpeza do formato dos dados, a extração até a plotagem do gráfico para a diretoria:
@@ -36,17 +35,17 @@ O script app.py funciona com uma função de limpeza que atua da seguinte forma:
 
 Construí uma interface web simples, utilizando o Streamlit, que facilita muito o processo de criação da interface web. Coloquei recursos como:
 
- * Filtros Dinâmicos: Cruzamento de dados por Status (fechado, negociando ou recusado) e Vendedor em tempo real.
+ * Filtros Dinâmicos: Organização de dados por Status (fechado, negociando ou recusado) e Vendedor em tempo real.
 
- * KPIs Estratégicos: Faturamento Fechado, Propostas e orçamentos em Aberto (Negociações), Total de Leads e Taxa de Conversão.
+ * KPIs Estratégicos: Faturamento Fechado, Propostas e orçamentos em Aberto (Negociações), Total de oportunidades e Taxa de Conversão.
 
  * Inteligência Visual: Gráficos interativos em Plotly para acompanhamento de Meta e do que já foi alcançado e distribuição das oportunidades e abordagens comerciais.
 
  * Informações Detalhadas: Ao final do dashboard, o usuário tem acesso aos dados puros utilizados, separados por vendedor, data, cliente, valor e status, organizados em forma de tabela simples.
 
    ### Resultado
+   <img width="1348" height="762" alt="{2A5474C5-2ABE-4504-B829-2F2FFF2FF5C6}" src="https://github.com/user-attachments/assets/3e518901-9782-4de2-9913-2d77f880ef44" />
 
-   <img width="1310" height="592" alt="image" src="https://github.com/user-attachments/assets/9c95f9ad-a0bc-428e-98fb-8e41d7098e47" />
 
  >  _OBS: Dados fictícios, alterados para sigilo da empresa_
 
